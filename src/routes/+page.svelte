@@ -32,6 +32,7 @@
     CreditCard,
     Italic,
     Play,
+    Plus,
     Settings,
     Smile,
     Underline,
@@ -389,7 +390,14 @@
       <DropdownMenu.Item>Profile</DropdownMenu.Item>
       <DropdownMenu.Item>Billing</DropdownMenu.Item>
       <DropdownMenu.Item>Team</DropdownMenu.Item>
-      <DropdownMenu.Item>Subscription</DropdownMenu.Item>
+      <DropdownMenu.Item inset>
+        <Plus />
+        Subscription
+      </DropdownMenu.Item>
+      <DropdownMenu.Link inset href="/">
+        <Plus />
+        Subscription
+      </DropdownMenu.Link>
     </DropdownMenu.Group>
   </DropdownMenu.Content>
 </DropdownMenu.Root>
